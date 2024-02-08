@@ -33,12 +33,12 @@ function App() {
         of our app
       </h1>
       <div></div>
-      <div className="flex-col lg:flex p-3 justify-center">
+      <div className="block lg:flex p-3 justify-center">
         <div className="w-[600px] p-4">
-          <figure class="md:flex card bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <figure className="md:flex card bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+            <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>
-                <p class="text-lg font-medium">
+                <p className="text-lg font-medium">
                   The Network Attack Detection System is an innovative security
                   solution that employs advanced machine learning techniques to
                   monitor and analyze network traffic in real-time. Designed to
@@ -52,13 +52,13 @@ function App() {
                   infrastructures against unauthorized access and data breaches.
                 </p>
               </blockquote>
-              <figcaption class="font-medium"></figcaption>
+              <figcaption className="font-medium"></figcaption>
             </div>
           </figure>
         </div>
         <div className="w-[600px] p-4">
-          <figure class="md:flex card bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-            <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <figure className="md:flex card bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+            <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>
                 <div className="flex items-center">
                   <h1 className="text-lg font-bold">Desktop Application:</h1>
