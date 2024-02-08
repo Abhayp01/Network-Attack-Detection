@@ -29,11 +29,11 @@ function App() {
         </div>
       </nav>
       <h1 className="text-white text-1xl text-center mt-4">
-          We are still Working on the WebApp Till then get to know the capability of our app
+        We are still Working on the WebApp Till then get to know the capability
+        of our app
       </h1>
-      <div>
-      </div>
-      <div className="flex p-3 justify-center">
+      <div></div>
+      <div className="flex-col lg:flex p-3 justify-center">
         <div className="w-[600px] p-4">
           <figure class="md:flex card bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
             <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
@@ -61,46 +61,63 @@ function App() {
             <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>
                 <div className="flex items-center">
-                <h1 className="text-lg font-bold">
-                Desktop Application:
-                </h1>
-                <img className="w-5 h-5 mt-1 ml-3" src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png" alt="" />
+                  <h1 className="text-lg font-bold">Desktop Application:</h1>
+                  <img
+                    className="w-5 h-5 mt-1 ml-3"
+                    src="https://cdn-icons-png.flaticon.com/128/5968/5968350.png"
+                    alt=""
+                  />
                 </div>
 
                 <p className="text-lg font-medium">
                   <ul>
                     <li>
-                <span className="font-bold">Python:</span> Powers core functionalities, including data processing and machine learning.
-                </li>
-                <li>
-
-                <span className="font-bold">Tkinter:</span> Provides a user-friendly graphical interface.
-                </li>
-                <li>
-                <span className="font-bold">Scapy: </span>Enables detailed network packet capture and analysis.</li>
-                <li>
-                <span className="font-bold">Scikit-learn:</span> Implements machine learning algorithms for accurate threat detection.</li>
-                </ul>
+                      <span className="font-bold">Python:</span> Powers core
+                      functionalities, including data processing and machine
+                      learning.
+                    </li>
+                    <li>
+                      <span className="font-bold">Tkinter:</span> Provides a
+                      user-friendly graphical interface.
+                    </li>
+                    <li>
+                      <span className="font-bold">Scapy: </span>Enables detailed
+                      network packet capture and analysis.
+                    </li>
+                    <li>
+                      <span className="font-bold">Scikit-learn:</span>{" "}
+                      Implements machine learning algorithms for accurate threat
+                      detection.
+                    </li>
+                  </ul>
                 </p>
                 <br />
                 <div className="flex items-center">
-                <h1 className="text-lg font-bold">
-                Web Application:
-                </h1>
-                <img className="w-5 h-5 mt-1 ml-3" src="https://cdn-icons-png.flaticon.com/128/3334/3334886.png" alt="" />
-                <img className="w-[70px] mt-1 ml-3" src="https://lh3.googleusercontent.com/proxy/hyFAYoSo80UWM5-ihWefZe0p6rLZQVy4XASh5RVtBj2Z9SSuhCLtnEYCaMyik3KNsi5fRNKj18YeDAK8f6BwoafPQulQIdcB_5vwuSrGIg" alt="" />
+                  <h1 className="text-lg font-bold">Web Application:</h1>
+                  <img
+                    className="w-5 h-5 mt-1 ml-3"
+                    src="https://cdn-icons-png.flaticon.com/128/3334/3334886.png"
+                    alt=""
+                  />
+                  <img
+                    className="w-[70px] mt-1 ml-3"
+                    src="https://lh3.googleusercontent.com/proxy/hyFAYoSo80UWM5-ihWefZe0p6rLZQVy4XASh5RVtBj2Z9SSuhCLtnEYCaMyik3KNsi5fRNKj18YeDAK8f6BwoafPQulQIdcB_5vwuSrGIg"
+                    alt=""
+                  />
                 </div>
 
                 <p className="text-lg font-medium">
                   <ul>
                     <li>
-                    <span className="font-bold">Flask (Python):</span> Manages backend operations and serves machine learning model predictions.
-                </li>
-                <li>
-                <span className="font-bold">React:</span> Creates a dynamic and responsive user interface on the frontend.
-                </li>
-    
-                </ul>
+                      <span className="font-bold">Flask (Python):</span> Manages
+                      backend operations and serves machine learning model
+                      predictions.
+                    </li>
+                    <li>
+                      <span className="font-bold">React:</span> Creates a
+                      dynamic and responsive user interface on the frontend.
+                    </li>
+                  </ul>
                 </p>
               </blockquote>
               <figcaption class="font-medium"></figcaption>
