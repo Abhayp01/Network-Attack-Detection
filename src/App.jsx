@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Tkinter from "./components/Tkinter";
-import Steps from "./components/steps";
+import Steps from "./components/Steps";
 import Phone from "./components/Phone";
 import Mlmodel from "./components/Mlmodel";
 import { TypeAnimation } from "react-type-animation";

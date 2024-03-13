@@ -1,6 +1,6 @@
 import React from 'react'
 
-function steps() {
+function Steps() {
   return (
     <ul className="steps steps-vertical lg:steps-horizontal">
       <li className="step step-primary text-green-800">Register</li>
@@ -11,4 +11,4 @@ function steps() {
   )
 }
 
-export default steps
+export default Steps
