@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Mlmodel from "./components/Mlmodel";
 import Products from "./components/Products";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 Navbar
 function App() {
   return (
