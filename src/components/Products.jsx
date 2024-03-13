@@ -12,11 +12,12 @@ function Products() {
                 <Steps />
             </div>
         </div>
-        <div className="flex justify-around items-center w-full px-5">
-            <div className="product-card  rounded-xl shadow-xl p-5 hover:scale-105 transition-transform duration-300 ease-in-out">
+       
+        <div className="flex flex-col lg:flex-row lg:justify-around lg:items-center w-full px-5">
+            <div className="w-fit mx-auto product-card  rounded-xl shadow-xl p-5 hover:scale-105 transition-transform duration-300 ease-in-out">
                 <Tkinter />
             </div>
-            <div className="product-card  rounded-xl shadow-xl p-5 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <div className="w-fit mx-auto product-card  rounded-xl shadow-xl p-5 hover:scale-105 transition-transform duration-300 ease-in-out">
                 <Phone />
             </div>
         </div>
